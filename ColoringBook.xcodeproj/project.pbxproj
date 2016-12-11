@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527826621DFD10FD008942C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527826611DFD10FD008942C2 /* AppDelegate.swift */; };
+		527826641DFD10FD008942C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527826631DFD10FD008942C2 /* ViewController.swift */; };
+		527826671DFD10FD008942C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527826651DFD10FD008942C2 /* Main.storyboard */; };
+		527826691DFD10FD008942C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527826681DFD10FD008942C2 /* Assets.xcassets */; };
+		5278266C1DFD10FD008942C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5278266A1DFD10FD008942C2 /* LaunchScreen.storyboard */; };
+		527826771DFD10FD008942C2 /* ColoringBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527826761DFD10FD008942C2 /* ColoringBookTests.swift */; };
+		527826821DFD10FD008942C2 /* ColoringBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527826811DFD10FD008942C2 /* ColoringBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527826731DFD10FD008942C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527826561DFD10FD008942C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5278265D1DFD10FD008942C2;
+			remoteInfo = ColoringBook;
+		};
+		5278267E1DFD10FD008942C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527826561DFD10FD008942C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5278265D1DFD10FD008942C2;
+			remoteInfo = ColoringBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5278265E1DFD10FD008942C2 /* ColoringBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoringBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527826611DFD10FD008942C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527826631DFD10FD008942C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527826661DFD10FD008942C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527826681DFD10FD008942C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5278266B1DFD10FD008942C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5278266D1DFD10FD008942C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527826721DFD10FD008942C2 /* ColoringBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527826761DFD10FD008942C2 /* ColoringBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringBookTests.swift; sourceTree = "<group>"; };
+		527826781DFD10FD008942C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5278267D1DFD10FD008942C2 /* ColoringBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527826811DFD10FD008942C2 /* ColoringBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringBookUITests.swift; sourceTree = "<group>"; };
+		527826831DFD10FD008942C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5278265B1DFD10FD008942C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5278266F1DFD10FD008942C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5278267A1DFD10FD008942C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527826551DFD10FD008942C2 = {
+			isa = PBXGroup;
+			children = (
+				527826601DFD10FD008942C2 /* ColoringBook */,
+				527826751DFD10FD008942C2 /* ColoringBookTests */,
+				527826801DFD10FD008942C2 /* ColoringBookUITests */,
+				5278265F1DFD10FD008942C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5278265F1DFD10FD008942C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5278265E1DFD10FD008942C2 /* ColoringBook.app */,
+				527826721DFD10FD008942C2 /* ColoringBookTests.xctest */,
+				5278267D1DFD10FD008942C2 /* ColoringBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527826601DFD10FD008942C2 /* ColoringBook */ = {
+			isa = PBXGroup;
+			children = (
+				527826611DFD10FD008942C2 /* AppDelegate.swift */,
+				527826631DFD10FD008942C2 /* ViewController.swift */,
+				527826651DFD10FD008942C2 /* Main.storyboard */,
+				527826681DFD10FD008942C2 /* Assets.xcassets */,
+				5278266A1DFD10FD008942C2 /* LaunchScreen.storyboard */,
+				5278266D1DFD10FD008942C2 /* Info.plist */,
+			);
+			path = ColoringBook;
+			sourceTree = "<group>";
+		};
+		527826751DFD10FD008942C2 /* ColoringBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				527826761DFD10FD008942C2 /* ColoringBookTests.swift */,
+				527826781DFD10FD008942C2 /* Info.plist */,
+			);
+			path = ColoringBookTests;
+			sourceTree = "<group>";
+		};
+		527826801DFD10FD008942C2 /* ColoringBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				527826811DFD10FD008942C2 /* ColoringBookUITests.swift */,
+				527826831DFD10FD008942C2 /* Info.plist */,
+			);
+			path = ColoringBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5278265D1DFD10FD008942C2 /* ColoringBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527826861DFD10FD008942C2 /* Build configuration list for PBXNativeTarget "ColoringBook" */;
+			buildPhases = (
+				5278265A1DFD10FD008942C2 /* Sources */,
+				5278265B1DFD10FD008942C2 /* Frameworks */,
+				5278265C1DFD10FD008942C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColoringBook;
+			productName = ColoringBook;
+			productReference = 5278265E1DFD10FD008942C2 /* ColoringBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527826711DFD10FD008942C2 /* ColoringBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527826891DFD10FD008942C2 /* Build configuration list for PBXNativeTarget "ColoringBookTests" */;
+			buildPhases = (
+				5278266E1DFD10FD008942C2 /* Sources */,
+				5278266F1DFD10FD008942C2 /* Frameworks */,
+				527826701DFD10FD008942C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527826741DFD10FD008942C2 /* PBXTargetDependency */,
+			);
+			name = ColoringBookTests;
+			productName = ColoringBookTests;
+			productReference = 527826721DFD10FD008942C2 /* ColoringBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5278267C1DFD10FD008942C2 /* ColoringBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5278268C1DFD10FD008942C2 /* Build configuration list for PBXNativeTarget "ColoringBookUITests" */;
+			buildPhases = (
+				527826791DFD10FD008942C2 /* Sources */,
+				5278267A1DFD10FD008942C2 /* Frameworks */,
+				5278267B1DFD10FD008942C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5278267F1DFD10FD008942C2 /* PBXTargetDependency */,
+			);
+			name = ColoringBookUITests;
+			productName = ColoringBookUITests;
+			productReference = 5278267D1DFD10FD008942C2 /* ColoringBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527826561DFD10FD008942C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Odyssey;
+				TargetAttributes = {
+					5278265D1DFD10FD008942C2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					527826711DFD10FD008942C2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5278265D1DFD10FD008942C2;
+					};
+					5278267C1DFD10FD008942C2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5278265D1DFD10FD008942C2;
+					};
+				};
+			};
+			buildConfigurationList = 527826591DFD10FD008942C2 /* Build configuration list for PBXProject "ColoringBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527826551DFD10FD008942C2;
+			productRefGroup = 5278265F1DFD10FD008942C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5278265D1DFD10FD008942C2 /* ColoringBook */,
+				527826711DFD10FD008942C2 /* ColoringBookTests */,
+				5278267C1DFD10FD008942C2 /* ColoringBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5278265C1DFD10FD008942C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5278266C1DFD10FD008942C2 /* LaunchScreen.storyboard in Resources */,
+				527826691DFD10FD008942C2 /* Assets.xcassets in Resources */,
+				527826671DFD10FD008942C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527826701DFD10FD008942C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5278267B1DFD10FD008942C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5278265A1DFD10FD008942C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527826641DFD10FD008942C2 /* ViewController.swift in Sources */,
+				527826621DFD10FD008942C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5278266E1DFD10FD008942C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527826771DFD10FD008942C2 /* ColoringBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527826791DFD10FD008942C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527826821DFD10FD008942C2 /* ColoringBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527826741DFD10FD008942C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5278265D1DFD10FD008942C2 /* ColoringBook */;
+			targetProxy = 527826731DFD10FD008942C2 /* PBXContainerItemProxy */;
+		};
+		5278267F1DFD10FD008942C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5278265D1DFD10FD008942C2 /* ColoringBook */;
+			targetProxy = 5278267E1DFD10FD008942C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527826651DFD10FD008942C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527826661DFD10FD008942C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5278266A1DFD10FD008942C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5278266B1DFD10FD008942C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527826841DFD10FD008942C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527826851DFD10FD008942C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527826871DFD10FD008942C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColoringBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyssey.ColoringBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		527826881DFD10FD008942C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColoringBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyssey.ColoringBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5278268A1DFD10FD008942C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColoringBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyssey.ColoringBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoringBook.app/ColoringBook";
+			};
+			name = Debug;
+		};
+		5278268B1DFD10FD008942C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColoringBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyssey.ColoringBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoringBook.app/ColoringBook";
+			};
+			name = Release;
+		};
+		5278268D1DFD10FD008942C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ColoringBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyssey.ColoringBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ColoringBook;
+			};
+			name = Debug;
+		};
+		5278268E1DFD10FD008942C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ColoringBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyssey.ColoringBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ColoringBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527826591DFD10FD008942C2 /* Build configuration list for PBXProject "ColoringBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527826841DFD10FD008942C2 /* Debug */,
+				527826851DFD10FD008942C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527826861DFD10FD008942C2 /* Build configuration list for PBXNativeTarget "ColoringBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527826871DFD10FD008942C2 /* Debug */,
+				527826881DFD10FD008942C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		527826891DFD10FD008942C2 /* Build configuration list for PBXNativeTarget "ColoringBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5278268A1DFD10FD008942C2 /* Debug */,
+				5278268B1DFD10FD008942C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5278268C1DFD10FD008942C2 /* Build configuration list for PBXNativeTarget "ColoringBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5278268D1DFD10FD008942C2 /* Debug */,
+				5278268E1DFD10FD008942C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527826561DFD10FD008942C2 /* Project object */;
+}
